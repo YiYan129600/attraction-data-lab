@@ -1,0 +1,16 @@
+data/
+private/
+exports/
+build/
+__pycache__/
+*.py[cod]
+*.sqlite*
+*.db
+*.zip
+*.exe
+*.log
+.env*
+cookies*.json
+client.json
+tests/.test_tmp/
+.venv/

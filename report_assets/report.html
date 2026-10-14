@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src 'none'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<title>小账号内容研究 · 案例与尝试</title><style>__STYLE__</style></head>
+<body><header><span class="eyebrow">小红书 · 本地研究手册</span><h1>从真实兴趣出发，<br>找到值得尝试的内容。</h1><p>看案例、看分母、看未知。把关联当作实验起点。</p><div id="study"></div></header>
+<main><div id="status" class="notice" role="status"></div>
+<section aria-labelledby="match-title"><div class="section-head"><h2 id="match-title">我的拍摄条件</h2><span>每位使用者单独填写；不保存、不共享</span></div>
+<form id="profile"><fieldset><legend>真实兴趣（最多取 3 个方向）</legend><div id="interest-inputs" class="checks"></div></fieldset>
+<fieldset><legend>已经拥有 / 能稳定使用的资源</legend><div id="resource-inputs" class="checks"></div></fieldset>
+<div class="form-row"><label>愿意出镜<select id="face"><option value="yes">可以出镜</option><option value="hands">只拍手、背影或局部</option><option value="no">不出镜</option></select></label><label>每周可投入时间<select id="hours"><option value="1">1 小时</option><option value="2" selected>2 小时</option><option value="4">4 小时</option><option value="8">8 小时</option></select></label><button type="submit">生成尝试方向</button></div></form>
+<div id="directions" aria-live="polite" class="directions"><p class="muted">勾选自己的真实兴趣与已有资源，生成最多三个方向。</p></div>
+<p class="muted">建议用于同账号对照实验。长期主动私聊效果、跨使用者泛化均未验证；不会根据女性年龄预设兴趣。</p></section>
+<section aria-labelledby="cases-title"><div class="section-head"><h2 id="cases-title">公开案例库</h2><span id="case-count"></span></div><div id="filters" class="filters"></div><label class="search">标题 / 正文 / 真实 tag 搜索<input id="query" type="search" placeholder="输入关键词" autocomplete="off"></label><div id="cases" aria-live="polite"></div></section>
+<section><h2>受众聚合与证据边界</h2><p>仅描述已核对资料的女性子样本；明确未成年者已排除，年龄未知仍未确认成年。多标签兴趣之和可超过 100%。小格少于 10 人不公开细分人数。</p><div id="audience" class="audience"></div></section>
+<section><h2>用自己的账号验证</h2><p>为每位使用者单独导入授权聚合结果：制作耗时、阅读口径、女性有效评论、由对方新发起的私聊人数和归因等级。只记录聚合计数，保留 24h / 72h / 7d 窗口，不需要私聊全文。</p><p>先选 2–3 个可持续方向，交错记录；一次主要改变一个画面或表达因素。公开评论中的“私信了”不等于真实私聊。没有自有账号结果时，效果保持未验证。导入入口与格式见工具 README / REPORTING.md。</p></section>
+</main><footer>当前粉丝快照 ≠ 发帖时粉丝数 · 观察评论池 ≠ 所有读者 · 相关性 ≠ 因果 · 本报告不自动加载远程媒体</footer>
+<script id="report-data" type="application/json">__DATA__</script><script>__SCRIPT__</script></body></html>

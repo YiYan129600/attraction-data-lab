@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Offline Xiaohongshu study envelope",
+  "type": "object",
+  "required": ["study_id", "owner_id", "source_mode", "observed_at"],
+  "properties": {
+    "study_id": {"type": "string", "minLength": 1},
+    "owner_id": {"type": "string", "minLength": 1},
+    "source_mode": {"enum": ["real", "synthetic"]},
+    "observed_at": {"type": "string", "format": "date-time"},
+    "study": {"type": "object"},
+    "searches": {"type": "array", "items": {"$ref": "#/$defs/search"}},
+    "creators": {"type": "array", "items": {"$ref": "#/$defs/creator"}},
+    "notes": {"type": "array", "items": {"$ref": "#/$defs/note"}},
+    "comments": {"type": "array", "items": {"$ref": "#/$defs/comment"}},
+    "outcomes": {"type": "array", "items": {"$ref": "#/$defs/outcome"}}
+  },
+  "$defs": {
+    "count": {"type": "object", "properties": {"raw": {"type": ["string", "number", "null"]}, "value": {"type": ["integer", "null"], "minimum": 0}, "precision": {"enum": ["exact", "rounded", "unknown"]}}},
+    "evidence": {"type": "object", "required": ["value", "basis", "evidence"], "properties": {"value": {"type": "string"}, "basis": {"enum": ["public_self_report", "public_profile", "authorized_aggregate", "public_content_repeated", "public_presentation", "single_topic"]}, "evidence": {"type": ["object", "string"]}, "version": {"type": "string"}}},
+    "search": {"type": "object", "required": ["search_id"], "properties": {"search_id": {"type": "string", "minLength": 1}}},
+    "creator": {"type": "object", "required": ["creator_id"], "properties": {"creator_id": {"type": "string", "minLength": 1}, "fans": {"$ref": "#/$defs/count"}, "gender": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}}},
+    "note": {"type": "object", "required": ["note_id", "creator_id"], "properties": {"note_id": {"type": "string", "minLength": 1}, "creator_id": {"type": "string", "minLength": 1}, "coverage": {"type": "object", "properties": {"status": {"enum": ["complete", "partial", "unknown"]}, "limit": {"type": ["integer", "null"], "minimum": 0}, "stop_reason": {"type": ["string", "null"]}, "comparison_key": {"type": ["string", "null"]}}}, "visual_labels": {"type": "array", "items": {"type": "object", "required": ["evidence", "version"]}}}},
+    "comment": {"type": "object", "required": ["comment_id", "note_id"], "properties": {"comment_id": {"type": "string", "minLength": 1}, "note_id": {"type": "string", "minLength": 1}, "user_id": {"type": ["string", "null"]}, "user_profile_url": {"type": ["string", "null"]}, "level": {"enum": [1, 2, null]}, "parent_id": {"type": ["string", "null"]}, "is_author": {"type": ["boolean", "null"]}, "profile_sampled": {"type": ["boolean", "null"]}, "audience": {"type": "object", "properties": {"gender": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}, "age_band": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}}}}},
+    "outcome": {"type": "object", "required": ["outcome_id"], "properties": {"outcome_id": {"type": "string", "minLength": 1}, "production_minutes": {"type": ["number", "null"], "minimum": 0}, "reads": {"type": ["integer", "null"], "minimum": 0}, "female_effective_commenters": {"type": ["integer", "null"], "minimum": 0}, "female_initiated_dms": {"type": ["integer", "null"], "minimum": 0}, "attribution": {"enum": ["explicit_note", "platform_source", "period_unattributed", "unknown", null]}}}
+  }
+}

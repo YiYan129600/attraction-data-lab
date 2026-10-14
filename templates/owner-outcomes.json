@@ -1,0 +1,19 @@
+{
+  "study_id": "replace-with-study-id",
+  "owner_id": "replace-with-private-owner-id",
+  "source_mode": "real",
+  "observed_at": "2026-10-14T00:00:00+08:00",
+  "outcomes": [],
+  "_record_template_do_not_import_as_observation": {
+    "outcome_id": "REPLACE", "note_id": "REPLACE", "strategy_id": null,
+    "window": "7d", "production_minutes": null,
+    "reads": null, "reads_basis": null, "reads_source": null,
+    "female_effective_commenters": null, "female_initiated_dms": null,
+    "attribution": "unknown",
+    "dm_initiation_rule": "new_female_initiated_not_previously_contacted",
+    "gender_evidence_basis": "public_or_authorized_explicit",
+    "minor_excluded": true,
+    "unknown_gender_dms": null, "advertising_dms": null,
+    "author_reply_minutes": null, "observation_notes": null
+  }
+}

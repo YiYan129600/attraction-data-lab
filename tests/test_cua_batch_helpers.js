@@ -1,0 +1,24 @@
+const assert=require('assert');
+const {createBatchHelpers,mergeComments}=require('../cua_batch_helpers');
+(async()=>{
+  const h=createBatchHelpers(), stamp=new Date().toISOString();
+  const tab={goto:async()=>{},playwright:{evaluate:async()=> '公开主页'}};
+  const requests=Array.from({length:6},(_,i)=>({id:String(i),url:`https://www.xiaohongshu.com/user/profile/${i}?xsec_token=memory-only`}));
+  const read=async(_,id)=>({kind:'audience_dom',user_id:id,reviewed:true,gender:null,observed_at:stamp});
+  assert.equal((await h.profiles(tab,requests,read)).profile_visits,6);
+  assert.equal((await h.profiles(tab,requests,read)).cache_hits,6);
+  const delta=h.delta();assert.equal(delta.length,6);h.ack(delta);assert.equal(h.delta().length,0);h.stage(delta[0]);assert.equal(h.delta().length,0);
+  const failed=createBatchHelpers();await failed.profiles(tab,requests,async()=>({reviewed:false}));assert.equal(failed.summary().cached_profiles,0);
+  const stop=createBatchHelpers();const result=await stop.profiles({...tab,playwright:{evaluate:async()=> '验证码'}},requests,read);assert.equal(result.stop,'access_control_stop');assert.equal(result.profile_visits,1);
+  assert.equal(h.profileQueue({comments:[{user_id:'0',level:1,is_author:false},{user_id:'0',level:1,is_author:false}]}).selected_count,1);
+  const seeded=createBatchHelpers();seeded.seedCache(delta);assert.equal((await seeded.profiles(tab,requests.slice(0,1),read)).cache_hits,1);
+  seeded.stage({kind:'note_dom',observed_at:stamp,optional:undefined});assert.equal(seeded.delta().length,1);
+  assert.equal(seeded.stopReason('这篇文章讨论权限管理'),null);
+  const error=createBatchHelpers();assert.equal((await error.profiles(tab,requests,async()=>{throw new Error('identity mismatch');})).stop,'unexpected_error_inspect');
+  const mismatch=createBatchHelpers();assert.equal((await mismatch.profiles(tab,requests,async()=>({user_id:'wrong',reviewed:true}))).profile_visits,1);
+  const merged=mergeComments([{id:'a',content:'old',intents:['practical_question'],interaction_target:'author',intent_annotation:{version:'v1'}},{id:'b',content:'retained'}],[{id:'a',content:'changed',intents:[]}]);
+  assert.equal(merged.length,2);assert.deepEqual(merged[0].intents,[]);assert.equal(merged[0].annotation_review_required,true);assert.equal(merged[0].interaction_target,'unknown');assert.deepEqual(merged[0].previous_annotation.intents,['practical_question']);
+  assert.deepEqual(mergeComments([{id:'a',content:'same',intents:['practical_question']}],[{id:'a',content:'same',intents:[]}])[0].intents,['practical_question']);
+  assert.equal((await createBatchHelpers().profiles(tab,[{id:'0',url:'http://www.xiaohongshu.com/user/profile/0'}],read)).profile_visits,0);
+  console.log('CUA helper tests passed');
+})().catch(e=>{console.error(e.message);process.exitCode=1;});

@@ -1,0 +1,1377 @@
+{
+  "schema_version": 1,
+  "dataset_id": "pilot-20261014-v1",
+  "source_mode": "real",
+  "selection_policy": "high_comment_female_case_study",
+  "records": [
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/69e632a9000000002202bedc",
+      "observed_at": "2026-10-14T08:01:33.872000+00:00",
+      "fans": {
+        "value": 269,
+        "precision": "exact"
+      },
+      "platform_comment_count": 66,
+      "platform_comment_precision": "exact",
+      "captured_count": 66,
+      "N": 8,
+      "K": 5,
+      "F": 4,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/69eabb6b000000001f031801",
+      "observed_at": "2026-10-14T06:56:25.578000+00:00",
+      "fans": {
+        "value": 36,
+        "precision": "exact"
+      },
+      "platform_comment_count": 3540,
+      "platform_comment_precision": "exact",
+      "captured_count": 59,
+      "N": 30,
+      "K": 24,
+      "F": 6,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "daily",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/69ec15c90000000037036481",
+      "observed_at": "2026-10-14T08:01:40.330000+00:00",
+      "fans": {
+        "value": 475,
+        "precision": "exact"
+      },
+      "platform_comment_count": 726,
+      "platform_comment_precision": "exact",
+      "captured_count": 101,
+      "N": 30,
+      "K": 24,
+      "F": 22,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "outdoor",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/69ecd56500000000350321fa",
+      "observed_at": "2026-10-14T04:21:56.154000+00:00",
+      "fans": {
+        "value": 33,
+        "precision": "exact"
+      },
+      "platform_comment_count": 1102,
+      "platform_comment_precision": "exact",
+      "captured_count": 20,
+      "N": 8,
+      "K": 6,
+      "F": 3,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "car",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/69f03b09000000003802269f",
+      "observed_at": "2026-10-14T04:21:58.134000+00:00",
+      "fans": {
+        "value": 3,
+        "precision": "exact"
+      },
+      "platform_comment_count": 281,
+      "platform_comment_precision": "exact",
+      "captured_count": 20,
+      "N": 8,
+      "K": 6,
+      "F": 0,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "car",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/69f2c84e000000001f002563",
+      "observed_at": "2026-10-14T04:22:00.094000+00:00",
+      "fans": {
+        "value": 30,
+        "precision": "exact"
+      },
+      "platform_comment_count": 275,
+      "platform_comment_precision": "exact",
+      "captured_count": 20,
+      "N": 8,
+      "K": 6,
+      "F": 1,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "car",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/69f553e5000000001b020069",
+      "observed_at": "2026-10-14T08:06:54.200000+00:00",
+      "fans": {
+        "value": 2030,
+        "precision": "exact"
+      },
+      "platform_comment_count": 1176,
+      "platform_comment_precision": "exact",
+      "captured_count": 103,
+      "N": 30,
+      "K": 23,
+      "F": 23,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "daily",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/69f75c580000000023017682",
+      "observed_at": "2026-10-14T08:00:45.621000+00:00",
+      "fans": {
+        "value": 687,
+        "precision": "exact"
+      },
+      "platform_comment_count": 618,
+      "platform_comment_precision": "exact",
+      "captured_count": 102,
+      "N": 30,
+      "K": 17,
+      "F": 16,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/69f9912c000000002003adcf",
+      "observed_at": "2026-10-14T06:26:59.100000+00:00",
+      "fans": {
+        "value": 229,
+        "precision": "exact"
+      },
+      "platform_comment_count": 632,
+      "platform_comment_precision": "exact",
+      "captured_count": 19,
+      "N": 8,
+      "K": 7,
+      "F": 2,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/69fef4610000000022028e94",
+      "observed_at": "2026-10-14T07:59:52.877000+00:00",
+      "fans": {
+        "value": 154,
+        "precision": "exact"
+      },
+      "platform_comment_count": 412,
+      "platform_comment_precision": "exact",
+      "captured_count": 112,
+      "N": 29,
+      "K": 16,
+      "F": 12,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/69ff4f84000000003503b6f5",
+      "observed_at": "2026-10-14T04:29:34.628000+00:00",
+      "fans": {
+        "value": 271,
+        "precision": "exact"
+      },
+      "platform_comment_count": 220,
+      "platform_comment_precision": "exact",
+      "captured_count": 78,
+      "N": 29,
+      "K": 20,
+      "F": 8,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "car",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a020b3a0000000008025bd5",
+      "observed_at": "2026-10-14T06:45:25.421000+00:00",
+      "fans": {
+        "value": 28,
+        "precision": "exact"
+      },
+      "platform_comment_count": 645,
+      "platform_comment_precision": "exact",
+      "captured_count": 20,
+      "N": 8,
+      "K": 7,
+      "F": 3,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a05bd5a000000000803202c",
+      "observed_at": "2026-10-14T08:11:27.588000+00:00",
+      "fans": {
+        "value": 4614,
+        "precision": "exact"
+      },
+      "platform_comment_count": 620,
+      "platform_comment_precision": "exact",
+      "captured_count": 100,
+      "N": 30,
+      "K": 20,
+      "F": 20,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "body_display",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a086e1e000000000603043b",
+      "observed_at": "2026-10-14T08:06:58.661000+00:00",
+      "fans": {
+        "value": 97,
+        "precision": "exact"
+      },
+      "platform_comment_count": 52,
+      "platform_comment_precision": "exact",
+      "captured_count": 46,
+      "N": 30,
+      "K": 19,
+      "F": 19,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "hobby",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a0b096e0000000006031dc3",
+      "observed_at": "2026-10-14T07:38:52.075000+00:00",
+      "fans": {
+        "value": 992,
+        "precision": "exact"
+      },
+      "platform_comment_count": 153,
+      "platform_comment_precision": "exact",
+      "captured_count": 18,
+      "N": 8,
+      "K": 4,
+      "F": 4,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a12ba980000000035030dec",
+      "observed_at": "2026-10-14T08:01:46.894000+00:00",
+      "fans": {
+        "value": 2620,
+        "precision": "exact"
+      },
+      "platform_comment_count": 541,
+      "platform_comment_precision": "exact",
+      "captured_count": 111,
+      "N": 9,
+      "K": 6,
+      "F": 6,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "daily",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a1599c200000000080251c6",
+      "observed_at": "2026-10-14T08:01:52.841000+00:00",
+      "fans": {
+        "value": 992,
+        "precision": "exact"
+      },
+      "platform_comment_count": 257,
+      "platform_comment_precision": "exact",
+      "captured_count": 105,
+      "N": 8,
+      "K": 6,
+      "F": 6,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "fitness",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a16a9cf00000000350201f9",
+      "observed_at": "2026-10-14T08:10:49.754000+00:00",
+      "fans": {
+        "value": 104,
+        "precision": "exact"
+      },
+      "platform_comment_count": 86,
+      "platform_comment_precision": "exact",
+      "captured_count": 86,
+      "N": 8,
+      "K": 8,
+      "F": 7,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "hobby",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a172e6000000000060307b6",
+      "observed_at": "2026-10-14T03:59:42.936000+00:00",
+      "fans": {
+        "value": 385,
+        "precision": "exact"
+      },
+      "platform_comment_count": 2133,
+      "platform_comment_precision": "exact",
+      "captured_count": 75,
+      "N": 30,
+      "K": 16,
+      "F": 14,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "fitness",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a1ea344000000003502bc76",
+      "observed_at": "2026-10-14T08:05:12.640000+00:00",
+      "fans": {
+        "value": 2620,
+        "precision": "exact"
+      },
+      "platform_comment_count": 102,
+      "platform_comment_precision": "exact",
+      "captured_count": 102,
+      "N": 31,
+      "K": 19,
+      "F": 19,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a1febfc0000000038023d49",
+      "observed_at": "2026-10-14T08:02:32.287000+00:00",
+      "fans": {
+        "value": 4782,
+        "precision": "exact"
+      },
+      "platform_comment_count": 1424,
+      "platform_comment_precision": "exact",
+      "captured_count": 105,
+      "N": 8,
+      "K": 7,
+      "F": 7,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a25632c000000000803d286",
+      "observed_at": "2026-10-14T08:10:57.249000+00:00",
+      "fans": {
+        "value": 992,
+        "precision": "exact"
+      },
+      "platform_comment_count": 228,
+      "platform_comment_precision": "exact",
+      "captured_count": 107,
+      "N": 8,
+      "K": 6,
+      "F": 5,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "fitness",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a295b4000000000070237b9",
+      "observed_at": "2026-10-14T08:02:45.224000+00:00",
+      "fans": {
+        "value": 992,
+        "precision": "exact"
+      },
+      "platform_comment_count": 697,
+      "platform_comment_precision": "exact",
+      "captured_count": 112,
+      "N": 8,
+      "K": 6,
+      "F": 6,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "fitness",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a338dfe000000001702cbb7",
+      "observed_at": "2026-10-14T08:07:07.060000+00:00",
+      "fans": {
+        "value": 2552,
+        "precision": "exact"
+      },
+      "platform_comment_count": 79,
+      "platform_comment_precision": "exact",
+      "captured_count": 80,
+      "N": 9,
+      "K": 7,
+      "F": 6,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "fitness",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a38ffca000000000f031ecd",
+      "observed_at": "2026-10-14T08:10:25.091000+00:00",
+      "fans": {
+        "value": 2552,
+        "precision": "exact"
+      },
+      "platform_comment_count": 112,
+      "platform_comment_precision": "exact",
+      "captured_count": 101,
+      "N": 9,
+      "K": 9,
+      "F": 8,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "fitness",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a3a457f000000000f01ea59",
+      "observed_at": "2026-10-14T08:02:52.924000+00:00",
+      "fans": {
+        "value": 2552,
+        "precision": "exact"
+      },
+      "platform_comment_count": 220,
+      "platform_comment_precision": "exact",
+      "captured_count": 102,
+      "N": 9,
+      "K": 7,
+      "F": 7,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a43b79400000000070139b1",
+      "observed_at": "2026-10-14T03:53:46.227000+00:00",
+      "fans": {
+        "value": 95,
+        "precision": "exact"
+      },
+      "platform_comment_count": 776,
+      "platform_comment_precision": "exact",
+      "captured_count": 19,
+      "N": 8,
+      "K": 5,
+      "F": 0,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "fitness",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a44d8a2000000000f01cf0d",
+      "observed_at": "2026-10-14T08:03:00.709000+00:00",
+      "fans": {
+        "value": 2552,
+        "precision": "exact"
+      },
+      "platform_comment_count": 390,
+      "platform_comment_precision": "exact",
+      "captured_count": 102,
+      "N": 9,
+      "K": 8,
+      "F": 7,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "daily",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a4a0b520000000022014da8",
+      "observed_at": "2026-10-14T08:03:20.364000+00:00",
+      "fans": {
+        "value": 326,
+        "precision": "exact"
+      },
+      "platform_comment_count": 340,
+      "platform_comment_precision": "exact",
+      "captured_count": 112,
+      "N": 10,
+      "K": 6,
+      "F": 5,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a4b999e0000000015025a15",
+      "observed_at": "2026-10-14T06:22:05.633000+00:00",
+      "fans": {
+        "value": 129,
+        "precision": "exact"
+      },
+      "platform_comment_count": 125,
+      "platform_comment_precision": "exact",
+      "captured_count": 20,
+      "N": 8,
+      "K": 6,
+      "F": 3,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a54a511000000001101508f",
+      "observed_at": "2026-10-14T08:03:28.968000+00:00",
+      "fans": {
+        "value": 106,
+        "precision": "exact"
+      },
+      "platform_comment_count": 435,
+      "platform_comment_precision": "exact",
+      "captured_count": 104,
+      "N": 8,
+      "K": 5,
+      "F": 3,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "daily",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a5e0cbf000000001002ad05",
+      "observed_at": "2026-10-14T08:03:38.103000+00:00",
+      "fans": {
+        "value": 18,
+        "precision": "exact"
+      },
+      "platform_comment_count": 87,
+      "platform_comment_precision": "exact",
+      "captured_count": 87,
+      "N": 8,
+      "K": 6,
+      "F": 4,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a5e27d3000000001c00df16",
+      "observed_at": "2026-10-14T06:10:41.149000+00:00",
+      "fans": {
+        "value": 4161,
+        "precision": "exact"
+      },
+      "platform_comment_count": 426,
+      "platform_comment_precision": "exact",
+      "captured_count": 20,
+      "N": 8,
+      "K": 4,
+      "F": 0,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "fitness",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a6825ff0000000005038150",
+      "observed_at": "2026-10-14T08:03:47.523000+00:00",
+      "fans": {
+        "value": 571,
+        "precision": "exact"
+      },
+      "platform_comment_count": 189,
+      "platform_comment_precision": "exact",
+      "captured_count": 108,
+      "N": 8,
+      "K": 7,
+      "F": 7,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "daily",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a6ab8880000000001003322",
+      "observed_at": "2026-10-14T04:24:35.953000+00:00",
+      "fans": {
+        "value": 3703,
+        "precision": "exact"
+      },
+      "platform_comment_count": 284,
+      "platform_comment_precision": "exact",
+      "captured_count": 18,
+      "N": 8,
+      "K": 4,
+      "F": 3,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "hobby",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a76c9e80000000025004e3d",
+      "observed_at": "2026-10-14T08:00:10.371000+00:00",
+      "fans": {
+        "value": 2174,
+        "precision": "exact"
+      },
+      "platform_comment_count": 101,
+      "platform_comment_precision": "exact",
+      "captured_count": 99,
+      "N": 19,
+      "K": 8,
+      "F": 6,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a7f00f80000000028005d93",
+      "observed_at": "2026-10-14T06:36:37.489000+00:00",
+      "fans": {
+        "value": 33,
+        "precision": "exact"
+      },
+      "platform_comment_count": 117,
+      "platform_comment_precision": "exact",
+      "captured_count": 19,
+      "N": 8,
+      "K": 6,
+      "F": 2,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a8433e800000000050316e5",
+      "observed_at": "2026-10-14T06:22:08.849000+00:00",
+      "fans": {
+        "value": 2292,
+        "precision": "exact"
+      },
+      "platform_comment_count": 73,
+      "platform_comment_precision": "exact",
+      "captured_count": 20,
+      "N": 8,
+      "K": 6,
+      "F": 2,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "outdoor",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a8517e60000000033031ea6",
+      "observed_at": "2026-10-14T03:53:34.842000+00:00",
+      "fans": {
+        "value": 122,
+        "precision": "exact"
+      },
+      "platform_comment_count": 1237,
+      "platform_comment_precision": "exact",
+      "captured_count": 19,
+      "N": 8,
+      "K": 7,
+      "F": 1,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "fitness",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a885cc10000000028022f1a",
+      "observed_at": "2026-10-14T06:45:28.414000+00:00",
+      "fans": {
+        "value": 11,
+        "precision": "exact"
+      },
+      "platform_comment_count": 296,
+      "platform_comment_precision": "exact",
+      "captured_count": 20,
+      "N": 8,
+      "K": 5,
+      "F": 1,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a8ad6f8000000002402733f",
+      "observed_at": "2026-10-14T04:19:32.095000+00:00",
+      "fans": {
+        "value": 3846,
+        "precision": "exact"
+      },
+      "platform_comment_count": 376,
+      "platform_comment_precision": "exact",
+      "captured_count": 20,
+      "N": 8,
+      "K": 4,
+      "F": 4,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "daily",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a8dd89a000000002a03d307",
+      "observed_at": "2026-10-14T07:56:48.344000+00:00",
+      "fans": {
+        "value": 3569,
+        "precision": "exact"
+      },
+      "platform_comment_count": 91,
+      "platform_comment_precision": "exact",
+      "captured_count": 19,
+      "N": 8,
+      "K": 5,
+      "F": 1,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a8fad5e0000000025013d7b",
+      "observed_at": "2026-10-14T06:27:00.611000+00:00",
+      "fans": {
+        "value": 185,
+        "precision": "exact"
+      },
+      "platform_comment_count": 315,
+      "platform_comment_precision": "exact",
+      "captured_count": 20,
+      "N": 8,
+      "K": 7,
+      "F": 3,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a94dfe60000000021030ffe",
+      "observed_at": "2026-10-14T06:22:03.808000+00:00",
+      "fans": {
+        "value": 156,
+        "precision": "exact"
+      },
+      "platform_comment_count": 151,
+      "platform_comment_precision": "exact",
+      "captured_count": 19,
+      "N": 8,
+      "K": 6,
+      "F": 2,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a951f7e0000000028006eeb",
+      "observed_at": "2026-10-14T06:36:38.932000+00:00",
+      "fans": {
+        "value": 1165,
+        "precision": "exact"
+      },
+      "platform_comment_count": 114,
+      "platform_comment_precision": "exact",
+      "captured_count": 18,
+      "N": 8,
+      "K": 5,
+      "F": 1,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a96261d00000000260209cc",
+      "observed_at": "2026-10-14T06:42:37.163000+00:00",
+      "fans": {
+        "value": 8,
+        "precision": "exact"
+      },
+      "platform_comment_count": 179,
+      "platform_comment_precision": "exact",
+      "captured_count": 20,
+      "N": 8,
+      "K": 6,
+      "F": 2,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "hobby",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a99838c0000000028030c1b",
+      "observed_at": "2026-10-14T08:07:16.812000+00:00",
+      "fans": {
+        "value": 65,
+        "precision": "exact"
+      },
+      "platform_comment_count": 126,
+      "platform_comment_precision": "exact",
+      "captured_count": 69,
+      "N": 29,
+      "K": 19,
+      "F": 10,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "daily",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a9a6efe0000000026039926",
+      "observed_at": "2026-10-14T04:04:31.800000+00:00",
+      "fans": {
+        "value": 39,
+        "precision": "exact"
+      },
+      "platform_comment_count": 99,
+      "platform_comment_precision": "exact",
+      "captured_count": 19,
+      "N": 8,
+      "K": 3,
+      "F": 3,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a9ac6290000000027009947",
+      "observed_at": "2026-10-14T06:45:32.920000+00:00",
+      "fans": {
+        "value": 162,
+        "precision": "exact"
+      },
+      "platform_comment_count": 101,
+      "platform_comment_precision": "exact",
+      "captured_count": 20,
+      "N": 8,
+      "K": 5,
+      "F": 2,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6a9d1026000000000b0366b5",
+      "observed_at": "2026-10-14T08:03:54.704000+00:00",
+      "fans": {
+        "value": 432,
+        "precision": "exact"
+      },
+      "platform_comment_count": 631,
+      "platform_comment_precision": "exact",
+      "captured_count": 100,
+      "N": 30,
+      "K": 28,
+      "F": 28,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "daily",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6aa014a50000000029013cba",
+      "observed_at": "2026-10-14T08:04:04.059000+00:00",
+      "fans": {
+        "value": 421,
+        "precision": "exact"
+      },
+      "platform_comment_count": 77,
+      "platform_comment_precision": "exact",
+      "captured_count": 77,
+      "N": 8,
+      "K": 6,
+      "F": 5,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6aa3eb4b0000000028035307",
+      "observed_at": "2026-10-14T03:53:48.079000+00:00",
+      "fans": {
+        "value": 34,
+        "precision": "exact"
+      },
+      "platform_comment_count": 628,
+      "platform_comment_precision": "exact",
+      "captured_count": 19,
+      "N": 8,
+      "K": 5,
+      "F": 2,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "fitness",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6aa8f6cb000000002902ffc8",
+      "observed_at": "2026-10-14T08:04:26.566000+00:00",
+      "fans": {
+        "value": 421,
+        "precision": "exact"
+      },
+      "platform_comment_count": 156,
+      "platform_comment_precision": "exact",
+      "captured_count": 109,
+      "N": 9,
+      "K": 6,
+      "F": 5,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "daily",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6aa9264f00000000250360e7",
+      "observed_at": "2026-10-14T06:18:30.314000+00:00",
+      "fans": {
+        "value": 162,
+        "precision": "exact"
+      },
+      "platform_comment_count": 153,
+      "platform_comment_precision": "exact",
+      "captured_count": 20,
+      "N": 8,
+      "K": 7,
+      "F": 3,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6aab66fc000000002a00660c",
+      "observed_at": "2026-10-14T06:36:35.908000+00:00",
+      "fans": {
+        "value": 68,
+        "precision": "exact"
+      },
+      "platform_comment_count": 119,
+      "platform_comment_precision": "exact",
+      "captured_count": 14,
+      "N": 8,
+      "K": 1,
+      "F": 1,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6aaba306000000000b00ee67",
+      "observed_at": "2026-10-14T06:36:32.761000+00:00",
+      "fans": {
+        "value": 191,
+        "precision": "exact"
+      },
+      "platform_comment_count": 283,
+      "platform_comment_precision": "exact",
+      "captured_count": 16,
+      "N": 8,
+      "K": 6,
+      "F": 3,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6aaccf33000000002802bcee",
+      "observed_at": "2026-10-14T08:09:13.847000+00:00",
+      "fans": {
+        "value": 4614,
+        "precision": "exact"
+      },
+      "platform_comment_count": 185,
+      "platform_comment_precision": "exact",
+      "captured_count": 102,
+      "N": 20,
+      "K": 14,
+      "F": 13,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6aadf7ff0000000011035bb4",
+      "observed_at": "2026-10-14T08:04:35.730000+00:00",
+      "fans": {
+        "value": 4782,
+        "precision": "exact"
+      },
+      "platform_comment_count": 573,
+      "platform_comment_precision": "exact",
+      "captured_count": 109,
+      "N": 10,
+      "K": 6,
+      "F": 6,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6aae5f1b000000002900e571",
+      "observed_at": "2026-10-14T06:27:03.584000+00:00",
+      "fans": {
+        "value": 159,
+        "precision": "exact"
+      },
+      "platform_comment_count": 193,
+      "platform_comment_precision": "exact",
+      "captured_count": 20,
+      "N": 8,
+      "K": 7,
+      "F": 2,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "car",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6aaea0e50000000028032903",
+      "observed_at": "2026-10-14T08:04:44.841000+00:00",
+      "fans": {
+        "value": 269,
+        "precision": "exact"
+      },
+      "platform_comment_count": 60,
+      "platform_comment_precision": "exact",
+      "captured_count": 60,
+      "N": 9,
+      "K": 6,
+      "F": 6,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6aaf780b0000000028002692",
+      "observed_at": "2026-10-14T07:43:48.460000+00:00",
+      "fans": {
+        "value": 85,
+        "precision": "exact"
+      },
+      "platform_comment_count": 439,
+      "platform_comment_precision": "exact",
+      "captured_count": 18,
+      "N": 8,
+      "K": 3,
+      "F": 1,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6ab23c08000000003303df5f",
+      "observed_at": "2026-10-14T04:19:33.645000+00:00",
+      "fans": {
+        "value": 655,
+        "precision": "exact"
+      },
+      "platform_comment_count": 280,
+      "platform_comment_precision": "exact",
+      "captured_count": 19,
+      "N": 8,
+      "K": 4,
+      "F": 1,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "daily",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6ab2492f000000003b0071e8",
+      "observed_at": "2026-10-14T08:04:55.851000+00:00",
+      "fans": {
+        "value": 5,
+        "precision": "exact"
+      },
+      "platform_comment_count": 76,
+      "platform_comment_precision": "exact",
+      "captured_count": 68,
+      "N": 30,
+      "K": 22,
+      "F": 22,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "hobby",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6aba6894000000001303c2cc",
+      "observed_at": "2026-10-14T04:24:38.064000+00:00",
+      "fans": {
+        "value": 2,
+        "precision": "exact"
+      },
+      "platform_comment_count": 133,
+      "platform_comment_precision": "exact",
+      "captured_count": 18,
+      "N": 8,
+      "K": 6,
+      "F": 2,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "hobby",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6abaa65d000000000200dbe6",
+      "observed_at": "2026-10-14T06:45:29.889000+00:00",
+      "fans": {
+        "value": 23,
+        "precision": "exact"
+      },
+      "platform_comment_count": 119,
+      "platform_comment_precision": "exact",
+      "captured_count": 20,
+      "N": 8,
+      "K": 6,
+      "F": 1,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6abb300b00000000010082f2",
+      "observed_at": "2026-10-14T08:08:52.158000+00:00",
+      "fans": {
+        "value": 4614,
+        "precision": "exact"
+      },
+      "platform_comment_count": 51,
+      "platform_comment_precision": "exact",
+      "captured_count": 51,
+      "N": 20,
+      "K": 13,
+      "F": 13,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "fitness",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6abb77c4000000001403bccb",
+      "observed_at": "2026-10-14T06:45:26.864000+00:00",
+      "fans": {
+        "value": 19,
+        "precision": "exact"
+      },
+      "platform_comment_count": 309,
+      "platform_comment_precision": "exact",
+      "captured_count": 19,
+      "N": 8,
+      "K": 6,
+      "F": 3,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6ac11c050000000018029e21",
+      "observed_at": "2026-10-14T06:40:46.981000+00:00",
+      "fans": {
+        "value": 92,
+        "precision": "exact"
+      },
+      "platform_comment_count": 58,
+      "platform_comment_precision": "exact",
+      "captured_count": 18,
+      "N": 8,
+      "K": 5,
+      "F": 0,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6ac3ac690000000015015410",
+      "observed_at": "2026-10-14T07:50:44.382000+00:00",
+      "fans": {
+        "value": 106,
+        "precision": "exact"
+      },
+      "platform_comment_count": 62,
+      "platform_comment_precision": "exact",
+      "captured_count": 14,
+      "N": 8,
+      "K": 4,
+      "F": 3,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6ac6575a000000001c00df00",
+      "observed_at": "2026-10-14T08:05:02.203000+00:00",
+      "fans": {
+        "value": 153,
+        "precision": "exact"
+      },
+      "platform_comment_count": 777,
+      "platform_comment_precision": "exact",
+      "captured_count": 104,
+      "N": 8,
+      "K": 6,
+      "F": 6,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "hobby",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6ac9b6f900000000190274b0",
+      "observed_at": "2026-10-14T08:05:10.488000+00:00",
+      "fans": {
+        "value": 1372,
+        "precision": "exact"
+      },
+      "platform_comment_count": 488,
+      "platform_comment_precision": "exact",
+      "captured_count": 101,
+      "N": 8,
+      "K": 5,
+      "F": 5,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    },
+    {
+      "source_url": "https://www.xiaohongshu.com/explore/6ace0eca0000000015015aff",
+      "observed_at": "2026-10-14T06:27:02.064000+00:00",
+      "fans": {
+        "value": 297,
+        "precision": "exact"
+      },
+      "platform_comment_count": 288,
+      "platform_comment_precision": "exact",
+      "captured_count": 17,
+      "N": 8,
+      "K": 5,
+      "F": 1,
+      "coverage": "partial",
+      "gender_evidence_method": "explicit_public_profile_or_self_report",
+      "topic": "unknown",
+      "subject": "unknown",
+      "composition": "unknown"
+    }
+  ],
+  "checksum": "dbe5cd0861807ff99796cc9a1e1b6a96d1b7bffe145fbd9b0583d35d0816db10"
+}

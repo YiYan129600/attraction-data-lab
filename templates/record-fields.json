@@ -1,0 +1,42 @@
+{
+  "_instructions": "Field template only; null/placeholder values are not observations. Copy selected record into an envelope and replace IDs and visible values. Do not import this file as data.",
+  "search": {
+    "search_id": "REPLACE", "query": null, "sort": null,
+    "observed_at": null, "sampling_rule": null, "sampling_version": null,
+    "source": null, "status": "unknown", "failure_reason": null
+  },
+  "creator": {
+    "creator_id": "REPLACE", "name": null, "url": null,
+    "observed_at": null, "source": null,
+    "fans": {"raw": null, "value": null, "precision": "unknown"},
+    "gender": []
+  },
+  "note": {
+    "note_id": "REPLACE", "creator_id": "REPLACE", "url": null,
+    "title": null, "text": null, "published_at": null, "format": "unknown",
+    "platform_tags": [], "body_tags": [], "topics": [],
+    "media": [], "counts": {}, "visual_labels": [], "text_labels": [],
+    "coverage": {"status": "unknown", "limit": null, "stop_reason": null, "sort": null, "sampling_rule": null, "comparison_key": null, "platform_count_basis": null, "loaded_count_basis": null},
+    "production_resources": []
+  },
+  "comment": {
+    "comment_id": "REPLACE_NATIVE_COMMENT_ID", "note_id": "REPLACE",
+    "user_id": null, "user_profile_url": null,
+    "level": null, "parent_id": null, "is_author": null,
+    "content": null, "published_at": null, "profile_sampled": false,
+    "profile_sampling_rule": null, "profile_checked_at": null,
+    "intents": [], "interaction_target": "unknown",
+    "audience": {"gender": [], "age_band": [], "interests": [], "presented_style": [], "preferred_style": []}
+  },
+  "disclosure_evidence": {
+    "value": null, "basis": "public_self_report",
+    "evidence": {"source": null, "locator": null, "observed_at": null, "value": null},
+    "version": "manual-v1", "status": "reviewed"
+  },
+  "visual_label": {
+    "media_id": "REPLACE", "role": "cover", "dimension": null, "value": null,
+    "evidence": {"source": null, "locator": null}, "version": "manual-v1",
+    "annotator": "manual", "status": "unreviewed"
+  },
+  "media_reference": {"media_id": "REPLACE", "role": "cover", "type": "image", "url": null, "local_path": null, "time_start_seconds": null, "time_end_seconds": null}
+}

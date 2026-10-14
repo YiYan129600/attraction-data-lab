@@ -1,0 +1,18 @@
+{
+  "study_id": "replace-with-study-id",
+  "owner_id": "replace-with-local-owner-id",
+  "source_mode": "real",
+  "observed_at": "2026-10-14T00:00:00+08:00",
+  "study": {
+    "purpose": "small-creator audience research",
+    "sampling_version": "pilot-v1",
+    "allowed_use": "authorized public-content descriptive research",
+    "threshold_version": "initial-plan-section-4-v1",
+    "threshold_status": "not_pilot_calibrated"
+  },
+  "searches": [],
+  "creators": [],
+  "notes": [],
+  "comments": [],
+  "outcomes": []
+}

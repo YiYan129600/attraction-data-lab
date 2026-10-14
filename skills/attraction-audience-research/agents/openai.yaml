@@ -1,0 +1,4 @@
+interface:
+  display_name: "异性吸引力数据研究"
+  short_description: "复用采集证据，研究内容正反例与公开受众，生成报告并贡献社区统计库"
+  default_prompt: "使用 $attraction-audience-research 完成内容调研与分析，复用已有归档，保留反例和未知，交付 HTML 与可校验的社区统计包。"
