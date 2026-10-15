@@ -6,6 +6,10 @@
 
 **新用户先看：[从零安装、环境配置与使用教程](docs/INSTALL.md)**，包含 Windows / macOS / Linux、Skill 安装、真实采集接入和常见报错。
 
+新增本地 **[Collector V2](docs/collector-v2/USAGE.md)**：单会话预算采集、缓存与中断恢复。运行 `python collector_demo.py` 可离线体验；真实REST采集需要已授权且可用的本地服务与显式 `--live`。当前站点吞吐尚未实测。
+
+本轮 **[分析方案、八项发现与离线复现](docs/TAG-METHODS.md)** 已整理：1,845篇归档中267篇可做标签比较、834个标签；[公开聚合JSON](aggregates/topic-balanced-20261015-v1.json)与[聚合HTML](aggregates/topic-balanced-20261015-v1.html)仅含统计，不含帖子/账号身份、标题、评论原声或图片。418个审核通用标签公开名称，其余416个未审核词保留匿名统计。与既有保留帖子来源链接的社区v1交换包分别使用。
+
 ## 先跑一个完整示例
 
 需要 Python 3.10+，核心与报告均只用标准库。无需数据库服务器、付费 API 或模型密钥。
@@ -62,6 +66,8 @@ python community.py merge contributions/my-study-v1.json --db exports/community.
 | `xhs_research/` | 本地 SQLite 快照、研究内去重、抽样和描述统计 |
 | `reporting.py`、`report_assets/` | 离线内容分析 HTML |
 | `community.py` | 严格白名单导出、校验、公共数据库与 HTML |
+| `xhs_research/tag_analysis.py`、`tag_publication.py` | 标签描述统计、严格聚合白名单导出与校验 |
+| `scripts/build_tag_data.py`、`export_tag_aggregates.py`、`build_revision_report.py` | 参数化离线标签统计、聚合发布与HTML报告 |
 | `batch_workflow.py` | 增量队列、缓存、检查点、成本记录 |
 | `browser_capture_bridge.py`、`cua_batch_helpers.js` | 可选浏览器证据保存与批量读取辅助 |
 | `skills/attraction-audience-research/` | 可迁移的完整研究与分析 Skill |

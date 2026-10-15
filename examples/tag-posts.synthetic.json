@@ -1,0 +1,10 @@
+{
+  "schema_version": "tag-data-revision-v1",
+  "source_mode": "synthetic",
+  "posts": [
+    {"tags": ["健身", "日常"], "tag_known": true, "creator_id": "synthetic-a", "likes": 10, "likes_verified": 10, "platform_comments": 0, "metric_evidence": {"likes_verified": {"precision": "exact", "source": "synthetic#search.likes_raw"}}, "source_cohort": "synthetic", "topic_stratum": "02", "verified_lowfan_eligible": true, "balanced_pool": ["A"]},
+    {"tags": ["健身"], "tag_known": true, "creator_id": "synthetic-b", "likes": null, "likes_verified": null, "platform_comments": 4, "metric_evidence": {}, "source_cohort": "synthetic", "topic_stratum": "02", "verified_lowfan_eligible": true, "balanced_pool": []},
+    {"tags": ["户外"], "tag_known": true, "creator_id": "synthetic-c", "likes": 20, "likes_verified": 20, "platform_comments": 8, "metric_evidence": {"likes_verified": {"precision": "exact", "source": "synthetic#search.likes_raw"}}, "source_cohort": "synthetic", "topic_stratum": "03", "verified_lowfan_eligible": false, "balanced_pool": []},
+    {"tags": [], "tag_known": false, "creator_id": "synthetic-d", "likes": 100, "likes_verified": null, "platform_comments": 10, "metric_evidence": {}, "source_cohort": "synthetic", "topic_stratum": null, "verified_lowfan_eligible": false, "balanced_pool": []}
+  ]
+}

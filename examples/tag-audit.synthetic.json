@@ -1,0 +1,15 @@
+{
+  "counts": {
+    "archive_unique": 4,
+    "tag_known": 3,
+    "tag_known_with_both_exact_metrics": 2,
+    "tag_known_likes_verified_exact": 2,
+    "tag_known_likes_semantics_unverified": 0,
+    "actual_deep_distinct": {
+      "historical_front30_complete": 0,
+      "balanced_deep_reads": 0,
+      "balanced_deep_complete": 0,
+      "any_deep_read_distinct": 0
+    }
+  }
+}

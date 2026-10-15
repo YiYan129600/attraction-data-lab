@@ -1,5 +1,7 @@
 # 内容分析、反例与报告
 
+标签研究可使用仓库 `docs/TAG-METHODS.md` 的统计契约和模拟输入：`scripts/build_tag_data.py` 重算本地描述统计，`scripts/export_tag_aggregates.py` 生成严格聚合包，`scripts/build_revision_report.py` 生成无逐帖身份和原声的聚合HTML。路径由CLI传入，不能假设用户拥有私人归档。`likes_verified`必须有明确搜索卡片点赞来源；语义待核对详情数字保留在另一口径。保留均值、中位、作者数、去最大值、共同分层及覆盖缺口；相关不等于因果。
+
 先用仓库 CORE.md 的命令导入、validate、analyze。只有验证通过才能把结果作为完整交付；部分失败也保留并说明影响。计数由 Python 完成，模型负责解释与有证据的标注。
 
 ## 解释顺序

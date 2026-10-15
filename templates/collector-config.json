@@ -1,0 +1,25 @@
+{
+  "study_id": "my-collector-study",
+  "owner_id": "local-research",
+  "source_mode": "real",
+  "provider": "replay",
+  "captures": "data/private/browser-captures",
+  "base_url": "http://127.0.0.1:18060",
+  "credentials_file": null,
+  "queries": {
+    "body_display": "男生身材",
+    "fitness": "男生健身",
+    "outdoor": "男生户外",
+    "daily": "男生日常",
+    "car": "男生汽车",
+    "hobby": "男生爱好"
+  },
+  "max_candidates": 20,
+  "max_requests": 300,
+  "max_profile_visits": 240,
+  "max_deep_notes": 6,
+  "max_seconds": 1800,
+  "request_interval": 1,
+  "audit_fraction": 0.1,
+  "seed": "collector-v2-1"
+}

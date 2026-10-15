@@ -1,0 +1,737 @@
+{
+  "source_mode": "synthetic",
+  "records": [
+    {
+      "kind": "creator_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "creator_id": "c",
+      "stats": [
+        {
+          "label": "粉丝",
+          "raw": "100"
+        }
+      ],
+      "gender_icon": [
+        "#male"
+      ]
+    },
+    {
+      "kind": "note_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "note_id": "000000000000000000000064",
+      "creator_id": "c",
+      "title": "synthetic",
+      "desc": "fixture",
+      "tags": [],
+      "type": "normal",
+      "comments_raw": "100",
+      "query": "男生健身",
+      "comments": [
+        {
+          "id": "0-comment-0",
+          "user_id": "user-0",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-1",
+          "user_id": "user-1",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-2",
+          "user_id": "user-2",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-3",
+          "user_id": "user-3",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-4",
+          "user_id": "user-4",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-5",
+          "user_id": "user-5",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-6",
+          "user_id": "user-6",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-7",
+          "user_id": "user-7",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-8",
+          "user_id": "user-8",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-9",
+          "user_id": "user-9",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-10",
+          "user_id": "user-10",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-11",
+          "user_id": "user-11",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-12",
+          "user_id": "user-12",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-13",
+          "user_id": "user-13",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-14",
+          "user_id": "user-14",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-15",
+          "user_id": "user-15",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-16",
+          "user_id": "user-16",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-17",
+          "user_id": "user-17",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-18",
+          "user_id": "user-18",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-19",
+          "user_id": "user-19",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-20",
+          "user_id": "user-20",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-21",
+          "user_id": "user-21",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-22",
+          "user_id": "user-22",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-23",
+          "user_id": "user-23",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-24",
+          "user_id": "user-24",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-25",
+          "user_id": "user-25",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-26",
+          "user_id": "user-26",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-27",
+          "user_id": "user-27",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-28",
+          "user_id": "user-28",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "0-comment-29",
+          "user_id": "user-29",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        }
+      ]
+    },
+    {
+      "kind": "note_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "note_id": "000000000000000000000065",
+      "creator_id": "c",
+      "title": "synthetic",
+      "desc": "fixture",
+      "tags": [],
+      "type": "normal",
+      "comments_raw": "100",
+      "query": "男生健身",
+      "comments": [
+        {
+          "id": "1-comment-0",
+          "user_id": "user-0",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-1",
+          "user_id": "user-1",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-2",
+          "user_id": "user-2",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-3",
+          "user_id": "user-3",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-4",
+          "user_id": "user-4",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-5",
+          "user_id": "user-5",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-6",
+          "user_id": "user-6",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-7",
+          "user_id": "user-7",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-8",
+          "user_id": "user-8",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-9",
+          "user_id": "user-9",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-10",
+          "user_id": "user-10",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-11",
+          "user_id": "user-11",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-12",
+          "user_id": "user-12",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-13",
+          "user_id": "user-13",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-14",
+          "user_id": "user-14",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-15",
+          "user_id": "user-15",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-16",
+          "user_id": "user-16",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-17",
+          "user_id": "user-17",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-18",
+          "user_id": "user-18",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-19",
+          "user_id": "user-19",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-20",
+          "user_id": "user-20",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-21",
+          "user_id": "user-21",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-22",
+          "user_id": "user-22",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-23",
+          "user_id": "user-23",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-24",
+          "user_id": "user-24",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-25",
+          "user_id": "user-25",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-26",
+          "user_id": "user-26",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-27",
+          "user_id": "user-27",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-28",
+          "user_id": "user-28",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        },
+        {
+          "id": "1-comment-29",
+          "user_id": "user-29",
+          "level": 1,
+          "is_author": false,
+          "content": "fixture"
+        }
+      ]
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-0",
+      "reviewed": true,
+      "gender": "female",
+      "gender_evidence": "#female",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-1",
+      "reviewed": true,
+      "gender": "female",
+      "gender_evidence": "#female",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-2",
+      "reviewed": true,
+      "gender": "female",
+      "gender_evidence": "#female",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-3",
+      "reviewed": true,
+      "gender": "female",
+      "gender_evidence": "#female",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-4",
+      "reviewed": true,
+      "gender": "female",
+      "gender_evidence": "#female",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-5",
+      "reviewed": true,
+      "gender": "female",
+      "gender_evidence": "#female",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-6",
+      "reviewed": true,
+      "gender": "female",
+      "gender_evidence": "#female",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-7",
+      "reviewed": true,
+      "gender": "female",
+      "gender_evidence": "#female",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-8",
+      "reviewed": true,
+      "gender": "male",
+      "gender_evidence": "#male",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-9",
+      "reviewed": true,
+      "gender": "male",
+      "gender_evidence": "#male",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-10",
+      "reviewed": true,
+      "gender": "male",
+      "gender_evidence": "#male",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-11",
+      "reviewed": true,
+      "gender": "male",
+      "gender_evidence": "#male",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-12",
+      "reviewed": true,
+      "gender": "male",
+      "gender_evidence": "#male",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-13",
+      "reviewed": true,
+      "gender": "male",
+      "gender_evidence": "#male",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-14",
+      "reviewed": true,
+      "gender": "male",
+      "gender_evidence": "#male",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-15",
+      "reviewed": true,
+      "gender": "male",
+      "gender_evidence": "#male",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-16",
+      "reviewed": true,
+      "gender": "male",
+      "gender_evidence": "#male",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-17",
+      "reviewed": true,
+      "gender": "male",
+      "gender_evidence": "#male",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-18",
+      "reviewed": true,
+      "gender": "male",
+      "gender_evidence": "#male",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-19",
+      "reviewed": true,
+      "gender": "male",
+      "gender_evidence": "#male",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-20",
+      "reviewed": true,
+      "gender": "male",
+      "gender_evidence": "#male",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-21",
+      "reviewed": true,
+      "gender": "male",
+      "gender_evidence": "#male",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-22",
+      "reviewed": true,
+      "gender": "male",
+      "gender_evidence": "#male",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-23",
+      "reviewed": true,
+      "gender": "male",
+      "gender_evidence": "#male",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-24",
+      "reviewed": true,
+      "gender": "male",
+      "gender_evidence": "#male",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-25",
+      "reviewed": true,
+      "gender": "male",
+      "gender_evidence": "#male",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-26",
+      "reviewed": true,
+      "gender": "male",
+      "gender_evidence": "#male",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-27",
+      "reviewed": true,
+      "gender": "male",
+      "gender_evidence": "#male",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-28",
+      "reviewed": true,
+      "gender": "male",
+      "gender_evidence": "#male",
+      "tags_text": "26岁"
+    },
+    {
+      "kind": "audience_dom",
+      "observed_at": "2026-10-14T12:23:25.143098+00:00",
+      "user_id": "user-29",
+      "reviewed": true,
+      "gender": "male",
+      "gender_evidence": "#male",
+      "tags_text": "26岁"
+    }
+  ]
+}

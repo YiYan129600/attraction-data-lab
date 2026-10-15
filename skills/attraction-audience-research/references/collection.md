@@ -2,6 +2,8 @@
 
 本 Skill 的统一输入是研究 envelope，不绑定某个爬虫。先检查现有工具与登录状态，用一篇样本验证“搜索→详情→作者→评论→导入”能否完成，再扩样。不要重新浏览多个第三方仓库或长时间停留在安装。
 
+已有Collector V2时优先用 `python -m xhs_research.collector` 批量执行，配置与命令见仓库 `docs/collector-v2/USAGE.md`。先doctor/plan离线核查，再在已有读取授权下显式--live；报告与缓存均在私有run目录。回放不算新实采，源码适配和mock通过不证明本机服务可用。缺少用户签名/性别披露时保留人工核对队列，不猜字段。
+
 ## 读取路径
 
 1. 已有授权的 MCP/API 能返回所需字段时，优先批量读取。历史试点参考 [xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp)，但本仓库不捆绑它，也不承诺其当前接口兼容。核对当前工具 schema，不硬编码历史版本参数。只调用研究需要的读取能力。
